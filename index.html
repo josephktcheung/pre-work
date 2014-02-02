@@ -2,72 +2,57 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Basic HTML Page Structure</title>
+    <title>WDI Prework</title>
   </head>
   <body>
     <header role="banner">
-    <h1>Mojo</h1> <!-- TODO: add logo image -->
-      <nav role="navigation">
+      <h1>WDI Prework</h1>
+      <nav id="site-navigation" role="navigation">
         <h2>Site Navigation</h2>
-        <ul role="menubar">
-          <li role="presentation"><a role="menuitem" href="/about">About</a></li>
-          <li role="presentation"><a role="menuitem" href="/coffee">Coffee</a></li>
-          <li role="presentation"><a role="menuitem" href="/services">Services</a></li>
-          <li role="presentation"><a role="menuitem" href="training">Training</a></li>
-          <li role="presentation"><a role="menuitem" href="/people">People</a></li>
-          <li role="presentation"><a role="menuitem" href="/locations">Locations</a></li>
-          <li role="presentation"><a role="menuitem" href="/store">Store</a></li>
-          <li role="presentation"><a role="menuitem" href="/blog">Blog</a></li>
-          <li role="presentation"><a role="menuitem" href="/contact">Contact</a></li>
-        </ul>
+        <!-- links to topic heading here -->
       </nav>
     </header>
     <main role="main">
-      <section id="hero-unit">
+      <aside id="sidebar">
+        <h2>Sidebar</h2>
+        <nav id="tree-navigation" role="navigation">
+          <h3>Topic/page navigation</h3>
+          <!-- tree of links here -->
+        </nav>
+      </aside>
+      <article id="lesson">
         <header>
-          <h2>About Mojo</h2>
+          <h2>Article title</h2>
+          <!-- lesson objectives here -->
         </header>
-        <!-- hero unit content goes here -->
-      </section>
-      <section id="tweets">
-        <header>
-          <h2>Tweets</h2>
-        </header>
-        <!-- tweets go here -->
-      </section>
-      <section id="blog">
-        <header>
-          <h2>Blog</h2>
-        </header>
-        <!-- recent blog post titles go here -->
-      </section>
-      <section id="newsletter">
-        <header>
-          <h2>Newsletter</h2>
-        </header>
-        <!-- newsletter announcements go here -->
-      </section>
+        <section>
+          <h3>Section title</h3>
+          <!-- main article content here -->
+          <aside role="note">
+            <h4>Note</h4>
+            <!-- parenthetical commentary here -->
+          </aside>
+        </section>
+        <footer>`
+          <h3>Footer title</h3>
+          <!-- successful completion measures here -->
+          <!-- additional resources here -->
+        </footer>
+      </article>
     </main>
     <footer>
-      <!-- footer content goes here -->
-      <nav role="navigation">
+      <section id="copyright">
+        <h2>Copyright</h2>
+        <!-- site copyright here -->
+      </section>
+      <nav id="site-map" role="navigation">
         <h2>Site Map</h2>
-        <ul role="menu">
-          <li role="presentation"><a role="menuitem" href="/">Home</a></li>
-          <li role="presentation"><a role="menuitem" href="/about">About</a></li>
-          <li role="presentation"><a role="menuitem" href="/coffee">Coffee</a></li>
-          <li role="presentation"><a role="menuitem" href="/services">Services</a></li>
-          <li role="presentation"><a role="menuitem" href="training">Training</a></li>
-          <li role="presentation"><a role="menuitem" href="/people">People</a></li>
-          <li role="presentation"><a role="menuitem" href="/locations">Locations</a></li>
-          <li role="presentation"><a role="menuitem" href="/store">Store</a></li>
-          <li role="presentation"><a role="menuitem" href="/blog">Blog</a></li>
-          <li role="presentation"><a role="menuitem" href="/vips">VIP Application</a></li>
-          <li role="presentation"><a role="menuitem" href="/venues">Venue Inquiry</a></li>
-          <li role="presentation"><a role="menuitem" href="/contact">Contact</a></li>
-          <li role="presentation"><a role="menuitem" href="/privacy">Privacy Policy</a></li>
-        </ul>
+        <!-- links to site here -->
       </nav>
+      <section id="contact">
+        <h2>Contact info</h2>
+        <!-- contact info here -->
+      </section>
     </footer>
   </body>
 </html>
