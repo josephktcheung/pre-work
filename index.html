@@ -85,9 +85,11 @@
           <h3>Great! How do we build a persona, then?</h3>
           <p>
             Well, there's 
-            <a href="http://1.usa.gov/1cZZfj6">an excellent explanation</a> 
-            on the 
-            <a href="http://usability.gov/">usability.gov website</a>, 
+            <a href="http://1.usa.gov/1cZZfj6">
+             an excellent explanation of personas
+            </a> 
+            on 
+            <a href="http://usability.gov/">the usability.gov website</a>, 
             so rather than reinvent the wheel here, we'll just link 
             to that. Go check it out, then come back and we'll build our 
             personas.
@@ -104,7 +106,9 @@
               <dt>Persona</dt>
               <dd>WDI Student</dd>
               <dt>Photo</dt>
-              <dd><img src="" alt="student-photo"></dd>
+              <dd>
+                <img src="" alt="" height="" width="">
+              </dd>
               <dt>Fictional name</dt>
               <dd>Sally Student</dd>
               <dt>Major responsibilities</dt>
@@ -163,7 +167,9 @@
               <dt>Persona</dt>
               <dd>WDI Instructor</dd>
               <dt>Photo</dt>
-              <dd><img src="" alt="instructor-photo"></dd>
+              <dd>
+                <img src="" alt="" height="" width="">
+              </dd>
               <dt>Fictional name</dt>
               <dd>Irving Instructor</dd>
               <dt>Major responsibilities</dt>
@@ -224,7 +230,9 @@
               <dt>Persona</dt>
               <dd>Curious Guest</dd>
               <dt>Photo</dt>
-              <dd><img src="" alt="guest-photo"></dd>
+              <dd>
+                <img src="" alt="" height="" width="">
+              </dd>
               <dt>Fictional name</dt>
               <dd>Gertrude Guest</dd>
               <dt>Major responsibilities</dt>
@@ -364,53 +372,43 @@
         </section>
         <section id="how-stories-look">
           <h3>Well, what do these stories look like?</h3>
-          <p>The original format from 2001 looked like this:</p>
-          <ul>
-            <li>As a [role], I want [goal/desire] so that [benefit]</li>
-          </ul>
-          <p>Here's an example (from Wikipedia):</p>
-          <ul>
-            <li>
+          <dl class="story-formats">
+            <dt>The original format from 2001 looked like this:</dt>
+            <dd>As a [role], I want [goal/desire] so that [benefit]</dd>
+            <dt>Here's an example (from Wikipedia):</dt>
+            <dd>
               As a student, I want to see estimated times for completion, so 
               that I may schedule my lesson better.
-            </li>
-          </ul>
-          <p>
-            Some developers have a problem with this format, however. They 
-            think that the benefit should come first (calling it "hunting the 
-            value"), so they swap it around:
-          </p>
-          <ul>
-            <li>
+            </dd>
+            <dt>
+              Some developers have a problem with this format, however. They 
+              think that the benefit should come first (calling it "hunting the 
+              value"), so they swap it around:
+            </dt>
+            <dd>
               In order to [receive benefit] as a [role], I want [goal/desire]
-            </li>
-          </ul>
-          <p>Now we have:</p>
-          <ul>
-            <li>
-               So that I may schedule my lessons better, as a student, I want 
-               to see estimated times for completion.
-            </li>
-          </ul>
-          <p>
-            That worked for a number of years. Then some smart guy pointed out 
-            that if you drop the role part, you don't really lose anything. And 
-            then that lead to yet another idea, that of the job story. The job 
-            story follows this format:
-          </p>
-          <ul>
-            <li>
+            </dd>
+            <dt>Now we have:</dt>
+            <dd>
+              So that I may schedule my lessons better, as a student, I want 
+              to see estimated times for completion.
+            </dd>
+            <dt>
+              That worked for a number of years. Then some smart guy pointed out 
+              that if you drop the role part, you don't really lose anything. 
+              And then that lead to yet another idea, that of the job story. 
+              The job story follows this format:
+            </dt>
+            <dd>
               When [situation], I want to [motivation], so I can 
               [expected outcome]
-            </li>
-          </ul>
-          <p>Here's our user story rewritten as a job story:</p>
-          <ul>
-            <li>
+            </dd>
+            <dt>Here's our user story rewritten as a job story:</dt>
+            <dd>
               When I start a lesson, I want to know how long it will take to 
               complete it, so that I can schedule my time appropriately.
-            </li>
-          </ul>
+            </dd>
+          </dl>
         </section>
         <section id="choosing-a-story-format">
           <h3>OK, I give up. Which format should I use?</h3>
@@ -425,8 +423,10 @@
             Building the pre-work website is an Agile process—an iterative 
             process—so why not write a few of your own user or job stories? 
             After all, you are the intended users. Send yours to 
-            charles.munat@generalassemb.ly and maybe they'll be incorporated 
-            into the site's UX. Stranger things have happened... 
+            <a href="mailto:charles.munat@generalassemb.ly">
+              charles.munat@generalassemb.ly</a>
+            and maybe they'll be incorporated into the site's UX. Stranger 
+            things have happened... 
           </p>
         </section>
         <section id="wireframe">
@@ -448,14 +448,14 @@
             </q>
           </p>
           <p>
-            I used an online tool called 
-            <a href="http://balsamiq.com">Balsamiq</a> 
+            I used 
+            <a href="http://balsamiq.com">an online tool called Balsamiq</a> 
             to create a very simple structural wireframe for a typical lesson 
             page. Here it is:
           </p>
           <figure id="example-page-basic-wireframe">
             <figcaption>Example page basic wireframe</figcaption>
-            <img src="" alt="wireframe-sample">
+            <img src="" alt="" height="" width="">
           </figure>
         </section>
         <section id="why-so-sketchy">
@@ -480,8 +480,7 @@
             cheating!
           </p>
         </section>
-        <footer>
-          <h3>Footer title</h3>
+        <footer role="presentation">
           <section id="success-measures">
             <h4>Measuring successful completion of this lesson</h4>
             <p>Hopefully, you've come away from this lesson understanding:</p>
@@ -532,16 +531,31 @@
           <section id="additional-resources">
             <h4>Additional Resources</h4>
             <ul class="resources">
-              <li><a href="http://1.usa.gov/1cZZfj6">Personas</a></li>
-              <li><a href="http://bit.ly/KlG8ne">Why personas suck</a></li>
-              <li><a href="http://bit.ly/1ak8HYJ">User stories</a></li>
-              <li><a href="http://bit.ly/KkdHXk">User story tips</a></li>
-              <li><a href="http://bit.ly/19CiJKe">Who does what</a></li>
-              <li><a href="http://bit.ly/JKTKHW">Job stories</a></li>
-              <li><a href="http://bit.ly/1gbtzWg">Wireframes</a></li>
-              <li><a href="http://bit.ly/1dVb1aP">A pretty good guide to 
-              wireframing</a></li>
-              <li><a href="http://balsamiq.com">Balsamiq</a></li>
+              <li>
+                <a title="Personas explained by usability.gov" href="http://1.usa.gov/1cZZfj6">Personas</a></li>
+              <li>
+                <a title="Alan Klement suggests skipping personas" href="http://bit.ly/KlG8ne">Why personas suck</a>
+              </li>
+              <li>
+                <a title="Wikipedia on user stories" href="http://bit.ly/1ak8HYJ">User stories</a>
+              </li>
+              <li>
+                <a title="Roman Pilcher on writing good user stories" href="http://bit.ly/KkdHXk">User story tips</a>
+              </li>
+              <li>
+                <a title="ThoughtWorks on user story formats" href="http://bit.ly/19CiJKe">Who does what</a>
+              </li>
+              <li>
+                <a title="Alan Klement on replacing the user story" href="http://bit.ly/JKTKHW">Job stories</a>
+              </li>
+              <li>
+                <a title="Wikipedia on website wireframing" href="http://bit.ly/1gbtzWg">Wireframes</a>
+              </li>
+              <li>
+                <a title="webdesign.tuts+ on wireframing" href="http://bit.ly/1dVb1aP">A pretty good guide to wireframing</a></li>
+              <li>
+                <a title="The Balsamic online wireframing tool" href="http://balsamiq.com">Balsamiq</a>
+              </li>
             </ul>
           </section>
         </footer>
